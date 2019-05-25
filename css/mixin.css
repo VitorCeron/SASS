@@ -1,0 +1,15 @@
+.caixa_azul {
+  width: 100px;
+  height: 100px;
+  margin-left: 30px;
+  margin-top: 30px;
+  background-color: blue;
+}
+
+.caixa_azul:hover {
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+/*# sourceMappingURL=mixin.css.map */

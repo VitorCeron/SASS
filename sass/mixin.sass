@@ -1,0 +1,14 @@
+=transform($property)
+    -webkit-transform: $property
+    -ms-transform: $property
+    transform: $property
+
+.caixa_azul
+  width: 100px
+  height: 100px
+  margin-left: 30px
+  margin-top: 30px
+  background-color: blue
+
+.caixa_azul:hover
+    +transform(rotate(30deg))
